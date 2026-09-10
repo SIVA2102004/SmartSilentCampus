@@ -1,4 +1,4 @@
-﻿package com.smartsilentcampus.presentation.history
+package com.smartsilentcampus.presentation.history
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
@@ -73,7 +73,7 @@ fun HistoryScreen(
                         ) {
                             Icon(
                                 imageVector = if (item.eventType == GeofenceEventType.ENTER)
-                                    Icons.Default.Login else Icons.Default.Logout,
+                                    Icons.AutoMirrored.Filled.Login else Icons.AutoMirrored.Filled.Logout,
                                 contentDescription = null,
                                 tint = if (item.eventType == GeofenceEventType.ENTER) EmeraldGreen40 else CoralRed,
                                 modifier = Modifier.size(28.dp)

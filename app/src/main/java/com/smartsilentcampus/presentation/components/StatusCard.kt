@@ -1,4 +1,4 @@
-﻿package com.smartsilentcampus.presentation.components
+package com.smartsilentcampus.presentation.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
@@ -55,7 +55,7 @@ fun StatusCard(
                         imageVector = when (ringerMode) {
                             SupportedRingerMode.SILENT -> Icons.Default.NotificationsOff
                             SupportedRingerMode.VIBRATE -> Icons.Default.Vibration
-                            SupportedRingerMode.DO_NOT_DISTURB -> Icons.Default.DoNotDisturbOn
+                            SupportedRingerMode.DO_NOT_DISTURB -> Icons.Default.DoNotDisturb
                             SupportedRingerMode.NORMAL -> Icons.Default.NotificationsActive
                         },
                         contentDescription = "Sound Status",

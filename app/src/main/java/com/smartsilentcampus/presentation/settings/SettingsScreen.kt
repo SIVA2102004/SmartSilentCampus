@@ -1,4 +1,4 @@
-﻿package com.smartsilentcampus.presentation.settings
+package com.smartsilentcampus.presentation.settings
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
@@ -60,7 +60,7 @@ fun SettingsScreen(
                             onCheckedChange = { viewModel.toggleAutomation(it) }
                         )
                     }
-                    Divider(modifier = Modifier.padding(vertical = 12.dp))
+                    HorizontalDivider(modifier = Modifier.padding(vertical = 12.dp))
                     Row(
                         modifier = Modifier.fillMaxWidth(),
                         horizontalArrangement = Arrangement.SpaceBetween,
@@ -72,7 +72,7 @@ fun SettingsScreen(
                             onCheckedChange = { viewModel.toggleEntryNotification(it) }
                         )
                     }
-                    Divider(modifier = Modifier.padding(vertical = 12.dp))
+                    HorizontalDivider(modifier = Modifier.padding(vertical = 12.dp))
                     Row(
                         modifier = Modifier.fillMaxWidth(),
                         horizontalArrangement = Arrangement.SpaceBetween,

@@ -1,4 +1,4 @@
-﻿package com.smartsilentcampus.presentation.locations
+package com.smartsilentcampus.presentation.locations
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -68,10 +68,10 @@ fun AddLocationScreen(
 
             Text("Location Type", fontWeight = FontWeight.Bold)
             ScrollableTabRow(
-                selectedTabIndex = LocationType.values().indexOf(selectedType),
+                selectedTabIndex = LocationType.entries.toTypedArray().indexOf(selectedType),
                 edgePadding = 0.dp
             ) {
-                LocationType.values().forEach { type ->
+                LocationType.entries.toTypedArray().forEach { type ->
                     Tab(
                         selected = selectedType == type,
                         onClick = {

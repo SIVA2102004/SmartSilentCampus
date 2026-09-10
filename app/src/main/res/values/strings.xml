@@ -1,0 +1,24 @@
+﻿<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Smart Silent Campus</string>
+    <string name="app_tagline">Your phone knows when to stay silent.</string>
+    <string name="good_morning">Good Morning 👋</string>
+    <string name="status_normal">NORMAL MODE</string>
+    <string name="status_silent">SILENT MODE ACTIVE</string>
+    <string name="status_vibrate">VIBRATE MODE ACTIVE</string>
+    <string name="status_dnd">DO NOT DISTURB ACTIVE</string>
+    <string name="outside_zones">You are currently outside all silent zones.</string>
+    <string name="inside_zone_format">Activated because you entered %1$s.</string>
+    <string name="add_location">Add Location</string>
+    <string name="manage_locations">Manage Locations</string>
+    <string name="sound_profiles">Sound Profiles</string>
+    <string name="history">History</string>
+    <string name="settings">Settings</string>
+    <string name="emergency_restore">Emergency Restore</string>
+    <string name="pause_automation">Pause Automation</string>
+    <string name="resume_automation">Resume Automation</string>
+    <string name="automation_active">Automation Active</string>
+    <string name="automation_paused">Automation Paused</string>
+    <string name="active_locations_count">Active Locations</string>
+    <string name="permission_required">Permission Required</string>
+    <string name="open_settings">Open Settings</string>
+</resources>
